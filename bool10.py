@@ -7,9 +7,9 @@ def main(a):
         bool
     """
     # Write your code here
-    import math
+    
      
-    return math.sqrt(a)**2==a
+    return (a**(1/2))**2==a
     
 print(main(18))
 print(main(16))
