@@ -9,7 +9,7 @@ def main(a):
     # Write your code here
     
      
-    return (a**(1/2))**2==a
+    return pow((a**(1/2)),2)==a
     
 print(main(18))
 print(main(16))
